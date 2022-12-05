@@ -1,0 +1,9 @@
+<div class="container">
+<%= search_form_for @q do |f| %>
+
+<div class="d-flex justify-content-center">
+  <%= f.search_field :title_or_description_cont, placeholder: "Search For an Article Using any Keyword", class: "form-control" %>
+  <%= f.submit %>
+</div>
+<% end %>
+</div>
