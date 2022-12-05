@@ -42,6 +42,9 @@ gem "ransack"
 gem "faker"
 gem 'kaminari'
 gem 'nokogiri', '~> 1.13', '>= 1.13.9'
+gem 'bootstrap-sass', '~> 3.4.1'
+gem 'sassc-rails', '>= 2.1.0'
+gem 'jquery-rails'
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
 
