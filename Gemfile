@@ -41,6 +41,7 @@ gem "tzinfo-data"
 gem "ransack"
 gem "faker"
 gem 'kaminari'
+gem 'nokogiri', '~> 1.13', '>= 1.13.9'
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
 
