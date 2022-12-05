@@ -34,17 +34,18 @@ gem "jbuilder"
 # gem "kredis"
 
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
-# gem "bcrypt", "~> 3.1.7"
+gem "bcrypt"
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data"
 gem "ransack"
 gem "faker"
-gem 'kaminari'
 gem 'nokogiri', '~> 1.13', '>= 1.13.9'
 gem 'bootstrap-sass', '~> 3.4.1'
 gem 'sassc-rails', '>= 2.1.0'
 gem 'jquery-rails'
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
 

@@ -1,6 +1,6 @@
 class ArticlesController < ApplicationController
-    before_action :set_article, only: [:edit, :update, :show, :destroy]
-  
+    before_action :set_article, only: [:edit, :update, :show]
+    
   def new
     @article = Article.new
   end
@@ -30,10 +30,11 @@ class ArticlesController < ApplicationController
   end
 
   def edit
+
   end
 
   def index
-    @articles = Article.all
+    @articles = Article.paginate(page: params[:page], per_page: 10)
   end
 
   def destroy
