@@ -20,7 +20,7 @@ gem "stimulus-rails"
 gem "jbuilder"
 
 gem "bcrypt"
-
+gem 'pg'
 gem "tzinfo-data"
 gem "ransack"
 gem "faker"

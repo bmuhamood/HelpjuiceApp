@@ -6,7 +6,6 @@ To create a realtime search box, where users search articles, and then to have a
 
 Your goal is to record their input in realtime and ultimately display analytics & trends on what people are searching for the most. (this is not about search itself, but really about analytics behind it)
 
-
 ## Built With
 
 - Ruby v3.1.2
