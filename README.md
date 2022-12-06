@@ -15,7 +15,7 @@ Your goal is to record their input in realtime and ultimately display analytics 
 
 [Live Demo!!!](https://helpjuiceapp.herokuapp.com/)
 
-You have to Sign up to acces to de home page and interact with other users
+You have to Sign up to access to access articles page and also be able to create/search articles
 
 ## Getting Started
 
