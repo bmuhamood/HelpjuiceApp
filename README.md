@@ -13,7 +13,7 @@ Your goal is to record their input in realtime and ultimately display analytics 
 
 ## Live Demo
 
-[Live Demo!!!](https://frozen-springs-34641.herokuapp.com/users/sign_in)
+[Live Demo!!!](https://helpjuiceapp.herokuapp.com/)
 
 You have to Sign up to acces to de home page and interact with other users
 
